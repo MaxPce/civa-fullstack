@@ -1,0 +1,182 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: transparent;
+}
+body {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f5faff 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+}
+
+h1 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.bus-main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.bus-card {
+  margin-top: 2rem;
+  border: 1px solid #1976d2;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: #f5faff;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  max-width: 400px;
+}
+
+.bus-card-title {
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+.bus-label {
+  color: #1976d2;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.bus-value {
+  color: #333;
+}
+
+/* Contenedor de la tabla */
+.bus-table-container {
+  margin: 2rem auto;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 1.5rem;
+}
+
+/* Tabla */
+.bus-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background: #fafbfc;
+}
+
+.bus-table th,
+.bus-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.bus-table th {
+  background: #1976d2;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid #1565c0;
+}
+
+.bus-table tr {
+  border-bottom: 1px solid #e3e3e3;
+  transition: background 0.2s;
+  color: #333;
+}
+
+.bus-table tr:hover {
+  background: #e3f2fd;
+  cursor: pointer;
+}
+
+/* Paginación */
+.bus-pagination {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.bus-pagination button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 1rem;
+}
+
+.bus-pagination button:disabled {
+  background: #b3d1f7;
+  cursor: not-allowed;
+}
+
+.bus-pagination span {
+  font-size: 1rem;
+  color: #1976d2;
+  font-weight: 500;
+}
+.bus-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #e3f2fd;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.3rem;
+  color: #1976d2;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bus-close-btn:hover {
+  background: #1976d2;
+  color: #fff;
+}
