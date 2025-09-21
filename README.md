@@ -1,4 +1,4 @@
-Incluye:  
+## Incluye:  
 - Backend:** API REST con Java 17, Spring Boot 3 y PostgreSQLcon Neon.  
 - Frontend:** React 18, consumo de API y visualización en tabla.  
 
